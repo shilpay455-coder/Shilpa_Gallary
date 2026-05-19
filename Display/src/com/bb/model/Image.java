@@ -12,8 +12,17 @@ public class Image {
     private String path;
     private String description;
     private LocalDateTime createdAt;
+    private String tags;
 
-    public Image() {
+    public String getTags() {
+		return tags;
+	}
+
+	public void setTags(String tags) {
+		this.tags = tags;
+	}
+
+	public Image() {
         this.createdAt = LocalDateTime.now();
     }
 
