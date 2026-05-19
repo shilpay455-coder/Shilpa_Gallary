@@ -13,8 +13,17 @@ public class Image {
     private String description;
     private LocalDateTime createdAt;
     private String tags;
+    private String category;
 
-    public String getTags() {
+    public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public String getTags() {
 		return tags;
 	}
 
